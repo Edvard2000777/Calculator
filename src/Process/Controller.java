@@ -82,7 +82,7 @@ public class Controller implements Initializable {
                 }
                 outputTF.setText(String.valueOf(temp3));
                 temp= temp3;
-                 temp2 = "";
+                 temp2 = btn.getText().trim();
 
             }
 
